@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- ANTES (con problemas de overlay) -->
+    <!-- <style name="Base.Theme.GestorClientes" parent="Theme.Material3.DayNight.NoActionBar"> -->
+
+    <!-- DESPUÉS (sin overlay) -->
+    <style name="Base.Theme.GestorClientes" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.GestorClientes" parent="Base.Theme.GestorClientes" />
+</resources>
